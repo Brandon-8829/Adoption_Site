@@ -1,0 +1,152 @@
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+    display: flex;
+    flex-flow: column wrap;
+    background: white;
+  
+}
+body img{
+    border: 0.2vw solid black;
+}
+body img:hover{
+    transform: scale(1.02);
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+.header {
+    display: flex;
+    color: white;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    background-color: black;
+    z-index: 2;
+}
+
+.navBar{
+    display: flex;
+    flex: 1;
+}
+
+.navItems {
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 1;
+    padding: 0 1em 0 0;
+}
+
+li {
+    display: flex;
+    width: auto;
+    flex-flow: row nowrap;
+    align-items: stretch;
+    flex: 1;
+    padding: 0 1em 0 1em;
+    border-color: white;
+    border-left: solid 1px;
+    border-right: solid 1px;
+}
+li:hover{
+    transform: scale(1.1);
+}
+
+.signIn .workLife {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100px;
+}
+
+p{
+    display: flex;
+    height: 100px;
+    overflow-wrap: break-word;  
+}
+
+.section1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.section1 img{
+    margin: auto;
+    float: left;
+    width:  500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.section1 h3, p{
+    color: black;
+    text-align: center;
+}
+
+.block-1 {
+    display: flex;
+    flex-flow: column wrap;
+    float: left;
+    width: 50%;
+}
+
+.block-1 img{
+    object-fit: cover;
+    height: 20vw;
+
+}
+.block-1 p{
+    color: white;
+    float: left;
+    position: absolute;
+    -webkit-text-stroke: 0.2px black; /* width and color */
+    font-size: 1vw;
+    padding-left: 1vw;
+}
+
+.block-4{
+    display: flex;
+    flex-flow: wrap;
+    width: 50vw;
+    height: 20vw;
+    position: absolute;
+    right: 1vw;
+    padding-top: 60px;
+}
+
+.block-4 .block-image{
+    width: 50%; 
+}
+#left-image{
+    left: 5vw;
+}
+.block-4 img{
+    width: calc(100% - (30px * 2));
+    float: right;
+    width:  22vw;
+    height: 190px;
+    object-fit: cover;
+}
+
+.section0 h3{
+    color: black;
+}
+
+.section0{
+    display: flex;
+    flex-flow: column wrap;
+    padding-bottom: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 2vw;
+}
+
+footer {
+    display: flex;  
+}

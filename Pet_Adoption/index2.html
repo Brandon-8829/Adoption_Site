@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="css/style2.css">
+		<div>
+			<form class="animal_properties">
+				<legend> Find Animals Near You! </legend>
+				<label for="city">Postal Code or City:</label>
+				<input type="text" name="cityInput" id="cityInput">
+				<label for="city">Breed:</label>
+				<input type="text" name="breedInput" id="breedInput">
+				<select name="drop_down" id="typeInput">
+				    <option value="Dog">Dog</option>
+				    <option value="Cat">Cat</option>
+				    <option value="Bird">Bird</option>
+				    <option value="Rabbit">Rabbit</option>
+			  	</select>
+			  	<select name="drop_down" id="sexInput">
+				    <option value="Male">Male</option>
+				    <option value="Female">Female</option>
+			  	</select>
+				<input type="submit" id="submitZip">	
+			</form>
+		</div>
+		<div>
+			<img src="" alt="">
+		</div>
+	</head>
+	<body>
+
+
+
+
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+		<script src="https://unpkg.com/@petfinder/petfinder-js/dist/petfinder.min.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
